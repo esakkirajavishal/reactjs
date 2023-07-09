@@ -1,0 +1,38 @@
+
+header{
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  background-color: #333;;
+  color: #fff;
+}
+
+main{
+  margin: 100px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: white;
+  grid-area: main;
+  overflow: auto;
+  padding: 15px 5px 10px 5px;
+}
+
+Footer {
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.app{
+  text-align:center;
+ 
+}
